@@ -1,7 +1,7 @@
 # Set up and create a cluster
 
 1. ```
-   cp ../03-provider/* .
+   cp ../04-kubeconfig/* .
    ```
 2. Add the provider
    ```

@@ -1,7 +1,7 @@
 # Set up and create a cluster
 
 1. ```
-   cp ../02-provider/* .
+   cp ../03-cluster/*.tf .
    ```
 2. ```
    terraform plan
