@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    #  User to provision resources (firewal / cluster) in civo.com
+    #  User to provision resources (firewall / cluster) in civo.com
     civo = {
       source  = "civo/civo"
       version = "1.0.29"
