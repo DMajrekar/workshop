@@ -1,26 +1,26 @@
 terraform {
   required_providers {
-    #  User to provision resources (firewal / cluster) in civo.com
+        #  User to provision resources (firewal / cluster) in civo.com
     civo = {
       source  = "civo/civo"
-      version = "1.0.29"
+      version = "1.0.35"
     }
 
     # Used to output the kubeconfig to the local dir for local cluster access
     local = {
       source  = "hashicorp/local"
-      version = "2.3.0"
+      version = "2.4.0"
     }
 
     # Used to provision helm charts into the k8s cluster
     helm = {
       source  = "hashicorp/helm"
-      version = "2.6.0"
+      version = "2.11.0"
     }
 
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = "2.17.0"
+      version = "2.23.0"
     }
   }
 }

@@ -2,12 +2,12 @@ terraform {
   required_providers {
     civo = {
       source  = "civo/civo"
-      version = "1.0.29"
+      version = "1.0.35"
     }
 
     local = {
       source = "hashicorp/local"
-      version = "2.3.0"
+      version = "2.4.0"
     }
   }
 }
